@@ -1,0 +1,13 @@
+[package]
+name = "web"
+version = "0.1.0"
+edition = "2021"
+authors = ["Antoine Langlois <antoine.l@antoine-langlois.net>"]
+description = "Web server for the tech bot"
+
+[dependencies]
+actix-web = "4.3"
+polodb_core = "4.4"
+serde = { version = "1.0", features = ["derive"] }
+tera = "1.19"
+thiserror = "1.0"
